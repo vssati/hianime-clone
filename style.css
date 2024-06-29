@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: rgba(37, 4, 37, 0.562);
+}
+li{
+    margin-top: 13px;
+}
+.navbar{
+    /* border:2px solid black; */
+    height: 18vh;
+    width:100vw;
+}
+.about{
+    display: flex;
+    font-size: 15px;
+    font-weight:bold;
+    justify-content: center;
+   
+}
+.about div{
+    margin:13vh 3vw 0vh 3vw;
+}
+.about div:hover{
+    color: blueviolet;
+}
+.search{
+    border:2px solid rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin-left: 13vw;
+    margin-right: 13vw;
+    height: 59vh;
+    display: flex;
+}
+
+.first{
+    margin-left: 23px;
+    margin-top:7px;
+    width:50%;
+}
+.logo{
+    height: 55px;
+    width:144px;
+}
+.Search_Anime{
+    display: block;
+    width:314px;
+    height:38px;
+    border:2px solid black;
+    border-radius:12px;
+
+}
+.box{
+    height: 39px;
+    width:43%;
+    background-color: purple;
+    border:2px solid black;
+    margin-top: 7%;
+    border-radius: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.top_anime{
+    width:54%;
+    color: white;
+    font-size: 16px;
+
+}
+.anime_pic{
+    height: 100%;
+    width:100%;
+}
+.social{
+    margin-left: 18%;
+    display: flex;
+    
+}
+.images img{
+    height:52%;
+    width:13%;
+    margin:5px;
+}
+.other_info{
+    display: flex;
+    height: 300px;
+    
+    margin-left:10%;
+    margin-right: 10%;
+}
+.first_container{
+    width:50%;
+}
+.boxex{
+    height: 35%;
+    width:176%;
+    border:2px solid black;
+    margin-top: 13px;
+    margin-left: 18%;
+    border-radius: 15px;
+}
+
+.small_box{
+    border:2px solid rgba(0,0,0,0.1);
+    margin-top: 14%;
+    margin-left: 23%;
+    border-radius: 4px;
+    width:79px;
+
+}
